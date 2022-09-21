@@ -1,0 +1,36 @@
+.NavBarContainer {
+    display: flex;
+    height: 100%;
+    color: white;
+    align-items: center;
+    margin: 0 10px 0 10px;
+
+}
+
+.NavBarContainer li:last-of-type {
+    margin-left: auto;
+}
+
+.NavBarContainer ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+
+}
+
+.NavBarContainer li {
+    display: flex;
+    padding: 10px;
+    transition: 500ms;
+    margin-right: 3px;
+    cursor: pointer;
+
+}
+
+.active,
+.NavBarContainer li:hover {
+    background-color: steelblue;
+    transition: 250ms;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 steelblue;
+}

@@ -1,0 +1,11 @@
+.MainPosition {
+    position:relative;
+    background-color: burlywood;
+    overflow: auto;
+    vertical-align:top;
+    width: 100%;
+    height: 100%;
+
+}
+
+

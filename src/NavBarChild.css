@@ -1,0 +1,36 @@
+.DropDownContainer {
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    transition: 250ms;
+    transform: translateX(-10px); 
+}
+
+.DropDownContainer.active {
+    background-color: rgb(106, 106, 224);
+    opacity: 1;
+    border-radius: .25rem;
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.DropDownOpen ul {
+    display: block;
+}
+
+.DropDownOpen li {
+    display: list-item;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+
+.Link {
+    display:block;
+    color:White;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
